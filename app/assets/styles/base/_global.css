@@ -1,0 +1,14 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+*{
+    box-sizing: border-box; /*para que el browser calcule el padding dentro del ancho de cada div y no se lo agregue despues*/
+}
+a{
+    color: $mainOrange;
+}

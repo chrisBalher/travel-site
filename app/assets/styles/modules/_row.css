@@ -1,0 +1,25 @@
+.row{
+    
+    @mixin clearfix;
+    &__b-margin-until-medium{
+        margin-bottom: 1rem;
+    }
+    @mixin atMedium {
+        &--gutters{ /*señala los divs dentro de esta clase*/
+            padding-right: 65px;
+        }
+        &__b-margin-until-medium{
+            margin-bottom: 0;
+        }
+        &__medium-4{   
+            float: left;
+            width: 33%;
+        }
+        &__medium-8{
+            float: left;
+            width: 66%;
+        }        
+    }
+
+    
+}
