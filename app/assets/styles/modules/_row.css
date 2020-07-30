@@ -5,8 +5,11 @@
         margin-bottom: 1rem;
     }
     @mixin atMedium {
-        &--gutters{ /*señala los divs dentro de esta clase*/
+        &--gutters{
             padding-right: 65px;
+        }
+        &--gutters-large{
+            padding-right: 100px;
         }
         &__b-margin-until-medium{
             margin-bottom: 0;
@@ -19,6 +22,11 @@
             float: left;
             width: 66%;
         }        
+        &__medium-6{
+            float: left;
+            width: 45%;
+            margin-left: 40px;
+        }
     }
 
     
