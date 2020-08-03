@@ -1,4 +1,5 @@
 import "../styles/styles.css"
+import 'lazysizes'
 import MobileMenu from "./modules/MobileMenu.js"
 import RevealOnScroll from "./modules/RevealOnScroll.js"
 import StickyHeader from "./modules/StickyHeader"
@@ -11,6 +12,7 @@ let mobilemenu = new MobileMenu()
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 65)
 new RevealOnScroll(document.querySelectorAll(".testimonial"), 50)
 
+//Codigo que carga el archivo modals cuando se hace click en boton
 document.querySelectorAll(".open-modal").forEach(el=>{
     el.addEventListener('click', e=>{
         e.preventDefault()
