@@ -1,7 +1,7 @@
 exports.handler = function(event, context, callback){
     const secretContent = `
     <h3>Bienvenido al Area Secreta</h3>
-    <p>Solo los papus pueden ingresar aquí</p>
+    <p>Solo nuestros clientes pueden ingresar aquí</p>
     `
     let body 
     if(event.body){

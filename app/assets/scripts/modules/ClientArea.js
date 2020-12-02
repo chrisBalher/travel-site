@@ -30,7 +30,7 @@ class ClientArea{
             <div class="wrapper wrapper--medium">
                 <h2 class="section-title section-title--blue">Area de Clientes</h2>
                 <form class="client-area__form" action="">
-                <input class="client-area__input" type="text" placeholder="Ingrese la frase secreta">
+                <input class="client-area__input" type="text" placeholder="Ingrese la frase secreta ( javascript )">
                 <button class="btn btn--orange">Submit</button>
                 </form>
                 <div class="client-area__content-area"></div>
